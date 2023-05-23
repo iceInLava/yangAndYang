@@ -144,5 +144,8 @@
   <ItemGroup>
     <None Include="bin\Debug\images\btn_bg.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\images\mainFormBG.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

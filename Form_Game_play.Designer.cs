@@ -64,9 +64,9 @@
             this.panel_result.BackColor = System.Drawing.Color.Transparent;
             this.panel_result.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel_result.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
-            this.panel_result.Location = new System.Drawing.Point(126, 698);
+            this.panel_result.Location = new System.Drawing.Point(156, 698);
             this.panel_result.Name = "panel_result";
-            this.panel_result.Size = new System.Drawing.Size(387, 59);
+            this.panel_result.Size = new System.Drawing.Size(362, 59);
             this.panel_result.TabIndex = 0;
             // 
             // btn_start
@@ -112,6 +112,8 @@
             // 
             this.panel_menu.BackColor = System.Drawing.Color.Black;
             this.panel_menu.BackgroundImage = global::鸡了个鸡.Properties.Resources.bg;
+            this.panel_menu.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panel_menu.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel_menu.Controls.Add(this.trackBar_effect);
             this.panel_menu.Controls.Add(this.lbl_effect_value);
             this.panel_menu.Controls.Add(this.lbl_effect);
@@ -128,7 +130,7 @@
             // 
             // trackBar_effect
             // 
-            this.trackBar_effect.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.trackBar_effect.BackColor = System.Drawing.Color.YellowGreen;
             this.trackBar_effect.Location = new System.Drawing.Point(166, 274);
             this.trackBar_effect.Name = "trackBar_effect";
             this.trackBar_effect.Size = new System.Drawing.Size(244, 45);
@@ -226,7 +228,7 @@
             // 
             // trackBar_volume
             // 
-            this.trackBar_volume.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.trackBar_volume.BackColor = System.Drawing.Color.YellowGreen;
             this.trackBar_volume.Location = new System.Drawing.Point(166, 193);
             this.trackBar_volume.Name = "trackBar_volume";
             this.trackBar_volume.Size = new System.Drawing.Size(244, 45);
@@ -298,9 +300,9 @@
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.BackgroundImage = global::鸡了个鸡.Properties.Resources.bottom;
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox1.Location = new System.Drawing.Point(1, 584);
+            this.pictureBox1.Location = new System.Drawing.Point(29, 584);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(632, 233);
+            this.pictureBox1.Size = new System.Drawing.Size(604, 233);
             this.pictureBox1.TabIndex = 8;
             this.pictureBox1.TabStop = false;
             // 
@@ -308,6 +310,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.White;
             this.BackgroundImage = global::鸡了个鸡.Properties.Resources.bg;
             this.ClientSize = new System.Drawing.Size(634, 861);
             this.Controls.Add(this.btn_settings);

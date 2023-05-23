@@ -72,7 +72,7 @@ namespace 鸡了个鸡
         };
         public GameObjectManager()
         {
-            button_count = 108;
+            button_count = 10800;
             grid_x_count = 9;
             grid_y_count = 9;
             grid_z_count = 3;
@@ -199,11 +199,17 @@ namespace 鸡了个鸡
             foreach (var middle in button_list_2)
             {
                 middle.Enabled = !IsButtonCovered(middle, button_list_1);
+                if (middle.Enabled == false)
+                    middle.BackColor = Color.Gray;
+                else middle.BackColor = Color.White;
             }
             foreach (var lower in button_list_3)
             {
                 lower.Enabled = !(IsButtonCovered(lower, button_list_2)
                     || IsButtonCovered(lower, button_list_1));
+                if (lower.Enabled == false)
+                    lower.BackColor = Color.Gray;
+                else lower.BackColor = Color.White;
             }
         }
         /// <summary>

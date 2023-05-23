@@ -62,9 +62,8 @@ namespace 鸡了个鸡
 
         private void Form_Game_play_FormClosing(object sender, FormClosingEventArgs e)
         {
-            Application.Exit();
+            GameObjectManager.form1.Show();
         }
-
 
         private void btn_settings_Click_1(object sender, EventArgs e)
         {
@@ -81,9 +80,10 @@ namespace 鸡了个鸡
         }
 
         private void btn_back_to_title_Click(object sender, EventArgs e)
-        {
-            Hide();
+        {   
             GameObjectManager.form1.Show();
+            Close();
+            
         }
 
         private void btn_quit_Click(object sender, EventArgs e)

@@ -113,6 +113,26 @@ namespace 鸡了个鸡.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        internal static System.Drawing.Bitmap btn_bg1 {
+            get {
+                object obj = ResourceManager.GetObject("btn_bg1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        internal static System.Drawing.Bitmap mainFormBG {
+            get {
+                object obj = ResourceManager.GetObject("mainFormBG", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         internal static System.Drawing.Bitmap R_C {
             get {
                 object obj = ResourceManager.GetObject("R-C", resourceCulture);
